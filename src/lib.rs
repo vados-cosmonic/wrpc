@@ -1,3 +1,5 @@
+#[cfg(feature = "wasmtime")]
+pub mod runtime;
 pub mod transport;
 
 pub use wrpc_types as types;
